@@ -1,0 +1,47 @@
+export const logo = "https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/gold-circle-letter-s-logo-vector-14957369.jpg?updatedAt=1720342413720"
+// hero
+export const heroimg="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/image-1920x1080(2).jpg?updatedAt=1720023313047"
+//circles
+export const bday ="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/il_300x300.4617241612_skgq.avif?updatedAt=1719856992637"
+export const school="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/download%20(4).jpg?updatedAt=1719969182226"
+export const weds="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/042f6b32-648e-42e6-b7a3-31939329bde9.__CR125,0,1000,1000_PT0_SX300_V1___.jpg?updatedAt=1719931836672"
+export const house="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/images%20(1).jpg?updatedAt=1719931856771"
+export const garden="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/il_300x300.4407428528_nmcn.avif?updatedAt=1719856992566"
+export const baby="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/1000_F_565515959_BgSWuZ0UNEXEvI4Zz7oewlygeLZ5GadP.jpg?updatedAt=1719969276191"
+// card
+export const aniversary="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/il_340x270.4479721093_gfiz.webp?updatedAt=1719858832400"
+export const bf="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/images%20(3).jpg?updatedAt=1719937636647"
+export const gf="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/il_340x270.4509951648_ap6m.avif?updatedAt=1719858832330"
+export const personal="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/images.jpg?updatedAt=1719931857171"
+export const wedding="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/images%20(2).jpg?updatedAt=1719931857067"
+export const home="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/download%20(1).jpg?updatedAt=1719931836527"
+export const friend="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/download%20(2).jpg?updatedAt=1719939113144"
+export const fam="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/download%20(3).jpg?updatedAt=1719939113384"
+export const prof="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/7178AGk9vAL._AC_UF1000,1000_QL80_.jpg?updatedAt=1719968466926"
+export const long="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/il_fullxfull.1042155232_emde.webp?updatedAt=1719968467088"
+
+//annis
+export const an1="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/anniverse/3_30033-76654-201028133931.webp?updatedAt=1721060080667"
+export const an2="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/anniverse/10_th.jpg?updatedAt=1721060080494"
+export const an3="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/anniverse/4_27376-69805-230802153543.webp?updatedAt=1721060080489"
+export const an4="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/anniverse/6_il_340x270.5769278428_7ax7.webp?updatedAt=1721060080461"
+export const an5="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/anniverse/7_th.jpg?updatedAt=1721060080408"
+export const an6="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/anniverse/1_th.jpg?updatedAt=1721060080370"
+export const an7="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/anniverse/2_edab0a0bea3fe35e985c378f25bef802.jpg?updatedAt=1721060080388"
+export const an8="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/anniverse/8_th.jpg?updatedAt=1721060080374"
+export const an9="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/anniverse/5_il_340x270.5726740500_ct78.webp?updatedAt=1721060080381"
+export const an10="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/anniverse/9_th.jpg?updatedAt=1721060080366"
+//men
+export const m1="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/men/14_th.jpg?updatedAt=1721063913260"
+export const m2="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/men/20th.jpg?updatedAt=1721063913257"
+export const m3="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/men/15_th.jpg?updatedAt=1721063913254"
+export const m4="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/men/19_th.jpg?updatedAt=1721063913194"
+export const m5="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/men/17_th.jpg?updatedAt=1721063913185"
+export const m6="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/men/12_th.jpg?updatedAt=1721063913180"
+export const m7="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/men/18_th.jpg?updatedAt=1721063913159"
+export const m8="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/men/11_th.jpg?updatedAt=1721063913171"
+export const m9="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/men/16_th.jpg?updatedAt=1721063913163"
+export const m10="https://ik.imagekit.io/a2gpaui9b/NNN%20gifts/men/13_il_fullxfull.1573399536_ozjd.webp?updatedAt=1721063913166"
+
+//footer
+export const flag="https://ik.imagekit.io/a2gpaui9b/images.png?updatedAt=1720111680815"
