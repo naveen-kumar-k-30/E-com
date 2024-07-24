@@ -20,6 +20,12 @@ const Details = () => {
   return (
     <div className="w-[90%] mx-auto flex flex-col">
       <h1 className="text-center text-4xl playfair-display mt-4 mb-4">{title}</h1>
+      <div className="md:w-[80%] lg:w-[40%] mx-auto grid grid-cols-1 md:grid-cols-2 p-5 gap-5 shadow-lg rounded-lg mb-6">
+        <div className="flex justify-center items-center">
+          <img src={img} alt={title} className="w-48 h-48 object-cover rounded-t-lg" />
+        </div>
+        <p className="text-center text-black playfair-display">{paragraph}</p>
+      </div>
       
       <div className="w-[90%] mx-auto grid grid-cols-2 lg:grid-cols-3 items-center gap-2 p-2">
         <div className="flex border-2 rounded-full px-2 py-1 gap-1 items-center w-full md:w-[35%] lg:w-[32%]">
@@ -68,12 +74,7 @@ const Details = () => {
           </Link>
         ))}
       </div>
-      <div className="md:w-[80%] lg:w-[40%] mx-auto grid grid-cols-1 md:grid-cols-2 p-5 gap-5 shadow-lg rounded-lg mb-6">
-        <div className="flex justify-center items-center">
-          <img src={img} alt={title} className="w-48 h-48 object-cover rounded-t-lg" />
-        </div>
-        <p className="text-center text-black playfair-display">{paragraph}</p>
-      </div>
+      
     </div>
   );
 };

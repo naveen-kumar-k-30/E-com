@@ -5,10 +5,21 @@ import { useState } from "react";
 import { flag } from "../../Images/Images";
 import { Link } from "react-router-dom";
 const dummyData = [
-  { name: "cat" },
-  { name: "dog" },
-  { name: "ss" },
-  { name: "google" },
+  {
+    title: "Anniversary gifts",
+  },
+  {
+    title: "Gifts for him",
+  },
+  { title: "Gifts for her" },
+  { title: "Wedding gifts" },
+  { title: "Personalised gift ideas" },
+
+  { title: "Housewarming gifts" },
+  { title: "Friendship gifts" },
+  { title: "Family gifts" },
+  { title: "Professional gifts" },
+  { title: "Long Distance gifts" },
 ];
 
 const Header = () => {
@@ -24,7 +35,7 @@ const Header = () => {
 
   const handleSearch = () => {
     const searchedText = data.filter(
-      (e) => e.name.toString().toLowerCase() === searchdata
+      (e) => e.title.toString().toLowerCase() === searchdata
     ); // it compares the exact match of substring
     setFilterData(searchedText);
   };
@@ -47,7 +58,7 @@ const Header = () => {
                 onChange={(e) => {
                   const typedValue = e.target.value.toString().toLowerCase();
                   const filteredData = data.filter((e1) =>
-                    e1.name.toString().toLowerCase().includes(typedValue)
+                    e1.title.toString().toLowerCase().includes(typedValue)
                   ); // searching without button
                   setFilterData(filteredData);
                   setSearchData(typedValue);
@@ -74,7 +85,7 @@ const Header = () => {
                           className="px-4 py-2 hover:bg-gray-200"
                           onClick={toggle}
                         >
-                          {e.name}
+                          {e.title}
                         </p>
                       )
                     )
