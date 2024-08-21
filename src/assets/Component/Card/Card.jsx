@@ -10,7 +10,7 @@ const Card = () => {
   useEffect(() => {
     const fetchcards = async () => {
       try {
-        const response = await axios.get("http://localhost:3000/cards");
+        const response = await axios.get("https://e-com-server-3u56.onrender.com/cards");
         const data = response.data;
         setCards(data.data);
       } catch (error) {
