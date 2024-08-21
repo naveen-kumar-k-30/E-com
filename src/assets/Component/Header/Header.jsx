@@ -30,6 +30,7 @@ const Header = () => {
   };
 
   const [data, setData] = useState(dummyData);
+  
   const [filterData, setFilterData] = useState(dummyData);
   const [searchdata, setSearchData] = useState("");
 
@@ -37,6 +38,7 @@ const Header = () => {
     const searchedText = data.filter(
       (e) => e.title.toString().toLowerCase() === searchdata
     ); // it compares the exact match of substring
+    setData()
     setFilterData(searchedText);
   };
   return (
@@ -97,14 +99,31 @@ const Header = () => {
             </div>
           </div>
           <div className="order-2  lg:order-3 flex justify-end">
-            <ul className="grid grid-cols-5 space-x-4">
-              <li>
-                <Link to="/Sign_in">
-                  <button className="flex items-center text-gray-700">
-                    Sign in
+            <ul className="grid grid-cols-7 space-x-4">
+            <li>
+                <Link to="/">
+                  <button className="flex items-center text-gray-700 ml-5">
+                    Home
                   </button>
                 </Link>
               </li>
+              <li>
+                <Link to="/SignUp">
+                  <button className="flex items-center text-gray-700">
+                    Register
+                  </button>
+                </Link>
+              </li>
+
+           
+              <li>
+                <Link to="/login">
+                  <button className="flex items-center text-gray-700">
+                    Login
+                  </button>
+                </Link>
+              </li>
+             
               <li>
                 <Link to="">
                   <LazyLoadImage
@@ -129,7 +148,7 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <Link>
+                <Link to="/cart">
                   <ShoppingBag className="text-gray-700" />
                 </Link>
               </li>
