@@ -48,7 +48,7 @@ const SignUp = () => {
     
     } else {
       try {
-        const response = await axios.post("http://localhost:3000/signup", formData);
+        const response = await axios.post("https://e-com-server-3u56.onrender.com/signup", formData);
         if (response.data.token) {
 
       
