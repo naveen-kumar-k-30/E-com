@@ -42,7 +42,7 @@ const Login = () => {
     
     } else {
       try {
-        const response = await axios.post("http://localhost:3000/login", formData);
+        const response = await axios.post("https://e-com-server-3u56.onrender.com/login", formData);
         if (response.data.token) {
    
           localStorage.setItem('token', response.data.token); 
